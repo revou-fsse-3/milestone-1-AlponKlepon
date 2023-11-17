@@ -728,6 +728,7 @@ footer {
     max-width: 600px;
   }
   .appContent {
+    justify-content: center;
     width: 100%;
   }
   .appContent img {
@@ -830,5 +831,50 @@ footer {
   .featuresCard {
     width: 100%;
     margin: 10px 0;
+  }
+  .appContainer {
+    width: 100%;
+    max-width: 375px;
+  }
+  .formInput label {
+    margin: 60% 0;
+  }
+  .formInput:nth-child(3) label {
+    margin-right: 50%;
+  }
+  .formInput select {
+    width: 60%;
+  }
+}
+
+@media (max-width: 470px) {
+  .navTopBar {
+    height: 120px;
+  }
+  .navContainer {
+    justify-content: start;
+  }
+  .navContainer a {
+    margin: 0;
+    flex: 0 0 50%;
+  }
+  .hamburgerWrapper {
+    margin: auto;
+    flex: 0 0 50%;
+  }
+  .hamburger {
+    margin: 5px auto;
+  }
+  .rightContent {
+    padding: 30px 0;
+  }
+  .bannerContent span {
+    font-size: 16px;
+  }
+  .bannerContent h1 {
+    font-size: 32px;
+  }
+  .bannerContent p {
+    font-size: 14px;
   }
 }
