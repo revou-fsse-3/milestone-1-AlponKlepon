@@ -877,4 +877,7 @@ footer {
   .bannerContent p {
     font-size: 14px;
   }
+  .aboutContent:nth-child(1) {
+    flex-basis: 40%;
+  }
 }
